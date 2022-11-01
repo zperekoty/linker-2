@@ -1,0 +1,41 @@
+---
+import { Navbar, Main } from "../components";
+import Footer from "../components/Footer.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="zperekoty Linker website." />
+    <meta name="keywords" content="zperekoty, Linker, zperekoty Linker" />
+    <meta name="twitter:title" content="zperekoty Linker" />
+    <meta name="twitter:description" content="zperekoty Linker website." />
+    <meta name="twitter:image" content="/favicon.ico" />
+    <meta name="twitter:website" content="" />
+    <meta name="twitter:creator" content="z_perekoty" />
+    <meta property="og:title" content="zperekoty Linker" />
+    <meta property="og:description" content="zperekoty Linker website." />
+    <meta property="og:image" content="/favicon.ico" />
+    <meta property="og:url" content="" />
+    <meta property="og:website_name" content="zperekoty Linker website." />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>zperekoty | Linker</title>
+    <style>
+      font-family: "Montserrat", sans-serif;
+    </style>
+  </head>
+
+  <body class="bg-[#F7F7FF] dark:bg-[#191308]">
+    <Navbar client:load />
+    <Main />
+    <Footer />
+  </body>
+</html>
