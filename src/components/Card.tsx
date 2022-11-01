@@ -9,11 +9,8 @@ const Card: FunctionComponent<cardProps> = ({
   description,
   source,
   url,
-  gr,
 }): JSX.Element => (
-  <section
-    class={`flex justify-center items-center flex-col w-[70%] lg:w-[33%] p-1 bg-gradient-to-${gr} from-[#00A6FB] to-[#453F78] via-[#B388EB] mt-[40px] lg:m-5`}
-  >
+  <section class="flex justify-center items-center flex-col w-[70%] lg:w-[33%] p-1 bg-gradient-to-br from-[#00A6FB] to-[#453F78] via-[#B388EB] mt-[40px] lg:m-5">
     <div class="flex justify-center items-center p-3 bg-white dark:bg-black transition-all ease-in-out duration-300 flex-col">
       <img class="w-full h-[200px]" src={img} alt={`${title}_img`} />
 

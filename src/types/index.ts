@@ -6,5 +6,4 @@ export type cardProps = {
   description: string;
   source: string;
   url: string;
-  gr: "t" | "tl" | "tr" | "b" | "br" | "bl" | "l" | "r";
 };

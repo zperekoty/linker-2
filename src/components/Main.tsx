@@ -12,7 +12,6 @@ const Main: FunctionComponent = (): JSX.Element => {
       description: "Website for pizzeria and sushi bar",
       source: "https://github.com/zperekoty/sushinyaki-frontend",
       url: "https://kalina-kan.vercel.app/",
-      gr: "br",
     },
     {
       img: images.kantimber,
@@ -20,7 +19,6 @@ const Main: FunctionComponent = (): JSX.Element => {
       description: "Lumber website ver 2.0",
       source: "https://github.com/zperekoty/kantimber",
       url: "https://kantimber.vercel.app/",
-      gr: "r",
     },
     {
       img: images.kanforest,
@@ -28,7 +26,6 @@ const Main: FunctionComponent = (): JSX.Element => {
       description: "Lumber website",
       source: "https://github.com/zperekoty/kanforest",
       url: "https://kanforest.vercel.app/",
-      gr: "br",
     },
     {
       img: images.password_storage,
@@ -36,7 +33,6 @@ const Main: FunctionComponent = (): JSX.Element => {
       description: "Password Storage project",
       source: "https://github.com/zperekoty/password-storage",
       url: "https://pst-zperekoty.vercel.app/signin",
-      gr: "r",
     },
   ];
 
@@ -49,7 +45,6 @@ const Main: FunctionComponent = (): JSX.Element => {
           description={card.description}
           source={card.source}
           url={card.url}
-          gr={card.gr}
         />
       ))}
     </main>
