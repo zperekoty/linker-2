@@ -7,6 +7,13 @@ import type { cardProps } from "../types";
 const Main: FunctionComponent = (): JSX.Element => {
   const cards: cardProps[] = [
     {
+      img: images.card_details,
+      title: "Card Details",
+      description: "Card Details page from Frontend Mentor",
+      source: "https://github.com/zperekoty/card-details",
+      url: "https://card-details-three.vercel.app/",
+    },
+    {
       img: images.kalina,
       title: "Kalina",
       description: "Website for pizzeria and sushi bar",
