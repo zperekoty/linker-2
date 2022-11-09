@@ -8,6 +8,13 @@ import type { cardProps } from "../types";
 const Main: FunctionComponent = (): JSX.Element => {
   const cards: cardProps[] = [
     {
+      img: images.dstu_rasp,
+      title: "Расписание ДГТУ",
+      description: "Расписание пар групп ДГТУ",
+      source: "https://github.com/zperekoty/dstu-rasp",
+      url: "https://dstu-rasp.vercel.app/",
+    },
+    {
       img: images.card_details,
       title: "Card Details",
       description: "Card Details page from Frontend Mentor",
