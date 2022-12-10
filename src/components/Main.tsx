@@ -8,18 +8,18 @@ import type { cardProps } from "../types";
 const Main: FunctionComponent = (): JSX.Element => {
   const cards: cardProps[] = [
     {
+      img: images.wis_angular,
+      title: "Send info to Telegram channel",
+      description: "WIS Software Angular App example",
+      source: "https://github.com/zperekoty/wis-angular-examlpe",
+      url: "https://wis-angular-examlpe.vercel.app",
+    },
+    {
       img: images.dstu_rasp,
       title: "Расписание ДГТУ",
       description: "Расписание пар групп ДГТУ",
       source: "https://github.com/zperekoty/dstu-rasp",
       url: "https://dstu-rasp.vercel.app/",
-    },
-    {
-      img: images.card_details,
-      title: "Card Details",
-      description: "Card Details page from Frontend Mentor",
-      source: "https://github.com/zperekoty/card-details",
-      url: "https://card-details-three.vercel.app/",
     },
     {
       img: images.kalina,
@@ -106,7 +106,7 @@ const Main: FunctionComponent = (): JSX.Element => {
         />
       ))}
 
-      <div class="flex justify-center items-center w-full after:w-full after:h-[4px] after:bg-gradient-to-r from-[#00A6FB] via-[#B388EB] to-[#453F78] uppercase text-xl text-[#191308] dark:text-[#F7F7FF] text-center flex-col">
+      <div class="flex justify-center items-center w-full after:w-full after:h-[4px] after:bg-gradient-to-r from-[#00A6FB] via-[#B388EB] to-[#453F78] uppercase text-xl text-[#191308] dark:text-[#F7F7FF] text-center flex-col my-6">
         <h1>socials</h1>
       </div>
 
